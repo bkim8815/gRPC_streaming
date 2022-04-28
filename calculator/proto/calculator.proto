@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package calculator;
+
+option go_package = "github.com/bkim8815/gRPC_streaming/calculator/proto";
+
+
+import "sum.proto";
+
+service CalculatorService {
+  rpc Sum (SumRequest) returns (SumResponse);
+}
