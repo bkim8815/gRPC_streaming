@@ -16,3 +16,9 @@
 
 
 bin/
+
+
+*.crt
+*.key
+*.pem
+*.csr
